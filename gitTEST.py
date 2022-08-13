@@ -1,6 +1,1 @@
-print("Git Test")
-print("Song")
-print("Seyi")
-print("됐나?")
-print("say yeah~")
-print("왜 안되냐")
+print("테스트 완료")
