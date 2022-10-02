@@ -4,6 +4,6 @@
 import os
 import subprocess
 
-command = "echo #PATH"
+command = "ls -l"
 result = subprocess.run(command.split(' '), stdout=subprocess.PIPE, text=True)
 print(result.stdout)
