@@ -1,16 +1,11 @@
 import os
 import subprocess
 
-command = "echo #PATH"
+command = "ls -l"
 result = subprocess.run(command.split(' '), stdout=subprocess.PIPE, text=True)
 
 try:
-    if '.' in result:
-        result.remove('.')
-
-    for i in range (len(result)):
-          print(result[i],end="")
-   
+    print(result.stdout)
     print("success")
 
 except:
