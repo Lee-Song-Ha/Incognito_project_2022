@@ -25,4 +25,4 @@ print(result.stdout)
 subprocess.run(["ls", "-l"], stdout=subprocess.DEVNULL)
 
 # Shell Script 실행
-subprocess.run(["파일 경로", "arguments"], shell=True)
+subprocess.run(["C:/Users/songh/VisualStudioCode/Incognito/Incognito_project_2022/code.sh", "arguments"], shell=True)
