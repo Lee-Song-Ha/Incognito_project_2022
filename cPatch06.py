@@ -10,12 +10,7 @@ try:
     if "." in resultList:
         print("PATH START")
 
-        resultList.remove(".")
-        path = ''.join(resultList)
-
-        pathCommand = ("PATH=%s" %path)
-        os.system(pathCommand)
-        print("PATH END")
+        # 패치!
 
     else:
         print("No Problem")
